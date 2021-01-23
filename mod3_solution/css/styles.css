@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color:#749C75 ;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding: auto;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  
+  color: WHITE;
+  font-size: 1.5em;
+  
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.col-xs-12{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -44px;
+}
+/* END HEADER */
+
+/*MAIN CONTENT*/
+.square{
+  background-color: #E9D985;
+  padding: 15px;
+  color: white;
+  border: 3px solid black
+  ;
+}
+.title-square{
+  text-align: center;
+  color: black
+  ;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  
+  .navbar-brand h1 { /* Restaurant name */
+    padding-left: 20px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  div#collapsable-nav {
+    background-color: darkslategray;
+    }
+
+    .col-xs-12{
+      
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    
+    font-size: 6vw;
+  }
+  /* End Header */
+  }
